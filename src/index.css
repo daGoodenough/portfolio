@@ -58,6 +58,13 @@ img.featured-project {
   justify-content: center;
 }
 
+.btn.btn-dark {
+  box-shadow: var(--main-font) 1px 1px 4px;
+}
+.btn.btn-dark:hover {
+  box-shadow: none;
+}
+
 /* @media screen and (min-width: 768px) {
   .home-profile-pic {
     max-width: 80%;
