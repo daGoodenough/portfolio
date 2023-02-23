@@ -33,3 +33,28 @@ nav {
 .item {
   background-color: var(--foreground);
 }
+
+.home-profile-pic {
+  max-width: 275px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 500px;
+}
+
+.short-bio {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+/* @media screen and (min-width: 768px) {
+  .home-profile-pic {
+    max-width: 80%;
+  }
+} */
+
+@media screen and (min-width: 992px) {
+  .short-bio {
+    font-size: 1.3rem;
+  }
+}

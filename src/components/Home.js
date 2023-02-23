@@ -1,11 +1,11 @@
 import { Container, Row } from 'react-bootstrap';
 
-import ProjectList from './ProjectList';
+import AboutMe from './AboutMe';
 
 const Home = () => (
   <Container className="mt-4">
     <Row className="justify-content-center">
-      <ProjectList />
+      <AboutMe />
     </Row>
   </Container>
 );
