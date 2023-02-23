@@ -42,9 +42,11 @@ nav {
   border-radius: 500px;
 }
 
-.short-bio {
+.short-bio,
+div.featured-project {
   font-size: 1.1rem;
   text-align: justify;
+  height: fit-content;
 }
 
 img.featured-project {
