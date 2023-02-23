@@ -1,4 +1,6 @@
-import { Col } from 'react-bootstrap';
+import { Col, Button, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 import profilePic from '../images/profile_pic.jpg';
 
 const AboutMe = () => (
@@ -24,6 +26,23 @@ const AboutMe = () => (
         highly motivated by Bitcoin, and the desire to build a better future.
       </div>
     </Col>
+    <Row>
+      <Col className="home-buttons">
+        <Button variant="dark" as={Link} to="/resume">
+          Resume
+        </Button>
+      </Col>
+      <Col className="home-buttons">
+        <Button variant="dark" as={Link} to="/about">
+          More About Me
+        </Button>
+      </Col>
+      <Col className="home-buttons">
+        <Button variant="dark" as={Link} to="/contact">
+          Contact
+        </Button>
+      </Col>
+    </Row>
   </>
 );
 

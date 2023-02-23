@@ -1,6 +1,6 @@
 :root {
   --main-font: whitesmoke;
-  --foreground: rgb(20, 24, 29);
+  --foreground: rgb(33, 37, 41);
   --background: rgb(1, 1, 0);
   --bs-body-bg: var(--background);
 }
@@ -51,6 +51,11 @@ div.featured-project {
 
 img.featured-project {
   max-width: 100%;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
 }
 
 /* @media screen and (min-width: 768px) {
