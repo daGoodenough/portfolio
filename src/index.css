@@ -47,6 +47,10 @@ nav {
   text-align: justify;
 }
 
+img.featured-project {
+  max-width: 100%;
+}
+
 /* @media screen and (min-width: 768px) {
   .home-profile-pic {
     max-width: 80%;
