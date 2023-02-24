@@ -30,6 +30,10 @@ nav {
   border-bottom: 1.5px solid var(--foreground);
 }
 
+.section-container {
+  min-height: calc(95vh - 57px);
+}
+
 .item {
   background-color: var(--foreground);
 }
@@ -63,6 +67,10 @@ img.featured-project {
 }
 .btn.btn-dark:hover {
   box-shadow: none;
+}
+
+.btn {
+  height: min-content;
 }
 
 img.education {

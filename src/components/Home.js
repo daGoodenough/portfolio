@@ -5,14 +5,14 @@ import FeaturedProject from './FeaturedProject';
 import Education from './Education';
 
 const Home = () => (
-  <Container className="mt-5">
-    <Row className="justify-content-center">
+  <Container>
+    <Row className="section-container align-content-between">
       <AboutMe />
     </Row>
-    <Row>
+    <Row className="section-container">
       <FeaturedProject />
     </Row>
-    <Row>
+    <Row className="section-container">
       <Education />
     </Row>
   </Container>

@@ -2,7 +2,7 @@ import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
 function NavBar() {
   return (
-    <Navbar variant="dark" expand="lg">
+    <Navbar className="sticky-top" variant="dark" bg="black" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Damian Goodenough</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
