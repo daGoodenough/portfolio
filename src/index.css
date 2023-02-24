@@ -30,8 +30,14 @@ nav {
   border-bottom: 1.5px solid var(--foreground);
 }
 
+.navbar-collapse {
+  flex-grow: 0;
+  justify-content: end;
+}
+
 .section-container {
   min-height: calc(95vh - 57px);
+  margin-bottom: 45px;
 }
 
 .item {
