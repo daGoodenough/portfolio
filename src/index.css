@@ -65,11 +65,30 @@ img.featured-project {
   box-shadow: none;
 }
 
-/* @media screen and (min-width: 768px) {
-  .home-profile-pic {
-    max-width: 80%;
+img.education {
+  max-width: 120px;
+  height: auto;
+}
+
+div.education {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+div.education-description {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.education.row {
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  div.education {
+    text-align: center;
   }
-} */
+}
 
 @media screen and (min-width: 992px) {
   .short-bio {
