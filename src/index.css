@@ -108,6 +108,21 @@ div.education-description {
   margin: 20px 0;
 }
 
+.fa-brands {
+  font-size: 5em;
+}
+
+.fa-twitter {
+  color: rgb(29, 155, 240);
+}
+
+.fa-github {
+  color: var(--main-font);
+}
+
+.fa-linkedin {
+  color: rgb(37, 104, 178);
+}
 @media screen and (max-width: 768px), screen and (min-width: 576px) {
   div.education {
     text-align: center;

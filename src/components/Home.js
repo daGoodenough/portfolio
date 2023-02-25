@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import AboutMe from './AboutMe';
 import FeaturedProject from './FeaturedProject';
 import Education from './Education';
+import Connect from './Connect';
 
 const Home = () => (
   <Container className="d-flex align-items-around flex-column">
@@ -14,6 +15,9 @@ const Home = () => (
     </Row>
     <Row className="section-container" id="education">
       <Education />
+    </Row>
+    <Row className="section-container" id="contact">
+      <Connect />
     </Row>
   </Container>
 );
