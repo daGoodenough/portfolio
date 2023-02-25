@@ -8,7 +8,7 @@ import parsityLogo from '../images/parsity_logo.png';
 const Education = () => (
   <>
     <FadeIn>
-      <div className="mt-5 text-center">
+      <div className="mt-5 text-center section-header">
         <h2>Education</h2>
       </div>
     </FadeIn>

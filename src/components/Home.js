@@ -5,8 +5,8 @@ import FeaturedProject from './FeaturedProject';
 import Education from './Education';
 
 const Home = () => (
-  <Container>
-    <Row className="section-container align-content-between" id="about">
+  <Container className="d-flex align-items-around flex-column">
+    <Row className="section-container align-content-around" id="about">
       <AboutMe />
     </Row>
     <Row className="section-container" id="projects">
