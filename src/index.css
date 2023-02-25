@@ -129,6 +129,11 @@ div.education-description {
   }
 }
 
+img.resume {
+  max-width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 577px), screen and (max-width: 991px) {
   .btn {
     font-size: 1.3rem;

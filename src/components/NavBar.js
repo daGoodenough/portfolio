@@ -1,4 +1,5 @@
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
@@ -10,7 +11,9 @@ function NavBar() {
       collapseOnSelect
     >
       <Container>
-        <Navbar.Brand href="#home">Damian Goodenough</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">
+          Damian Goodenough
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="justify-content-center">

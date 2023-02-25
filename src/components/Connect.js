@@ -4,15 +4,6 @@ import { Col, Row } from 'react-bootstrap';
 import FadeIn from './FadeIn';
 
 const Connect = () => (
-  // const socialMedias = [
-  //   <FontAwesomeIcon icon="fa-brands fa-twitter" />,
-  //   <FontAwesomeIcon icon="fa-brands fa-square-github" />,
-  //   <FontAwesomeIcon icon="fa-brands fa-linkedin" />,
-  // ].map((logo, index) => {
-  //   debugger;
-  //   return <Col key={index}>{logo}</Col>;
-  // });
-
   <>
     <FadeIn>
       <Row className="mt-5 text-center section-header">
