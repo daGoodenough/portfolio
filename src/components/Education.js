@@ -31,12 +31,12 @@ const Education = () => (
           <div className="education">Parsity Code School</div>
         </Col>
         <Col className="d-flex align-items-center" md={6}>
-          <div className="education-description">
+          <p className="education-description">
             Learned how to build full stack web applications using{' '}
             <em>React</em>,<em> Redux</em>, <em>Node.JS</em>, <em>Express</em>,
             and <em>MongoDB</em>. Strong emphasis on testing (using{' '}
             <em>Mocha</em>/<em>Chai</em>) and <em>MV</em> design patterns.
-          </div>
+          </p>
         </Col>
       </Row>
     </FadeIn>
@@ -66,13 +66,13 @@ const Education = () => (
           <div className="education">National Holistic Institute</div>
         </Col>
         <Col className="d-flex align-items-center" md={6}>
-          <div className="education-description">
+          <p className="education-description">
             Studied how to <strong>heal the body</strong> using food as
             medicine. Topics ranged from building <em>healthy lifestyles</em>{' '}
             all the way to
             <em> anatomy</em> and <em>biochemistry</em>. Focused on the ways
             that the food we eat and our physical states affect our wellness.
-          </div>
+          </p>
         </Col>
       </Row>
     </FadeIn>
@@ -95,10 +95,10 @@ const Education = () => (
           <div className="education">SLV High School</div>
         </Col>
         <Col className="d-flex align-items-center" md={6}>
-          <div className="education-description">
+          <p className="education-description">
             Graduated with <em>Suma Cum Laude</em> and a 4.42 GPA <br />
             Completed calculus series by Senior year.
-          </div>
+          </p>
         </Col>
       </Row>
     </FadeIn>

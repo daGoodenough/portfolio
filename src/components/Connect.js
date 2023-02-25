@@ -7,7 +7,7 @@ const Connect = () => (
   <>
     <FadeIn>
       <Row className="mt-5 text-center section-header">
-        <h1>Connect With Me</h1>
+        <h2>Connect With Me</h2>
       </Row>
     </FadeIn>
     <FadeIn>

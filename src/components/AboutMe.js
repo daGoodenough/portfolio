@@ -23,7 +23,7 @@ const AboutMe = () => (
     </Col>
     <Col className="d-flex align-items-center" md={6} xs={12}>
       <FadeIn>
-        <div className="short-bio">
+        <p className="short-bio">
           &emsp;Damian is a driven learner with a varied background that
           provides a unique perspective to his work. He has developed discipline
           through doing what no one else wants to do. Damian is skilled at
@@ -31,12 +31,12 @@ const AboutMe = () => (
           and is fascinated by self-hosting and peer-to-peer technologies. His
           goals and skills are highly motivated by Bitcoin and his desire to
           build a better future.
-        </div>
+        </p>
       </FadeIn>
     </Col>
     <FadeIn>
       <Row className="align-items-center buttons">
-        <Col className="home-button">
+        {/* <Col className="home-button">
           <Button variant="dark" as={Link} to="/resume">
             Resume
           </Button>
@@ -45,9 +45,9 @@ const AboutMe = () => (
           <Button variant="dark" as={Link} to="/about">
             About Me
           </Button>
-        </Col>
+        </Col> */}
         <Col className="home-button">
-          <Button variant="dark" as={Link} to="/contact">
+          <Button variant="dark" as="a" href="#contact">
             Contact
           </Button>
         </Col>

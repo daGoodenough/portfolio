@@ -6,7 +6,7 @@ import learnBtcWallet from '../images/learn-btc-wallet-addr.png';
 
 const FeaturedProject = () => (
   <>
-    <Row>
+    <Row className="mb-4">
       <Col className="d-flex align-items-center justify-content-center flex-column text-center">
         <FadeIn>
           <h2>Learn Bitcoin Wallet</h2>
@@ -17,12 +17,14 @@ const FeaturedProject = () => (
     <Row>
       <Col className="d-flex align-items-center" md={4}>
         <FadeIn>
-          <div className="featured-project">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
-            dicta! Obcaecati nostrum quod vitae doloribus eum possimus est hic
-            sint quisquam! Natus magnam quam excepturi ipsam praesentium eos.
-            Tempore,
-          </div>
+          <p className="featured-project">
+            Designed to help users understand concepts behind wallet software.
+            Uses Docker to run a <em>Bitcoin Core</em> node in regtest mode.
+            Users can create keys, address, and transactions all in the safe
+            learning environment of regtest mode. <br />
+            <strong>Key Technologies: </strong>BitcoinJS, React, NodeJS,
+            MongoDB, and Docker
+          </p>
         </FadeIn>
       </Col>
       <Col
@@ -51,9 +53,9 @@ const FeaturedProject = () => (
           >
             View Project
           </Button>
-          <Button variant="dark" as={Link} to="/projects">
+          {/* <Button variant="dark" as={Link} to="/projects">
             More Projects
-          </Button>
+          </Button> */}
         </Col>
       </Row>
     </FadeIn>
