@@ -30,13 +30,22 @@ nav {
   border-bottom: 1.5px solid var(--foreground);
 }
 
+.fade-in-section {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+}
+
 .navbar-collapse {
   flex-grow: 0;
   justify-content: end;
 }
 
 .section-container {
-  min-height: calc(95vh - 57px);
+  min-height: calc(100vh - 57px);
   margin-bottom: 45px;
 }
 
