@@ -148,6 +148,14 @@ img.resume {
   height: auto;
 }
 
+img.projects-page {
+  max-width: 80%;
+}
+
+.project-page-description {
+  font-size: 1.1rem;
+}
+
 @media screen and (min-width: 577px), screen and (max-width: 991px) {
   .btn {
     font-size: 1.3rem;

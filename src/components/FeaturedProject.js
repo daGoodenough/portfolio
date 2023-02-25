@@ -53,9 +53,9 @@ const FeaturedProject = () => (
           >
             View Project
           </Button>
-          {/* <Button variant="dark" as={Link} to="/projects">
+          <Button variant="dark" as={Link} to="/projects">
             More Projects
-          </Button> */}
+          </Button>
         </Col>
       </Row>
     </FadeIn>
