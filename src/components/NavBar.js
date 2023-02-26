@@ -11,7 +11,7 @@ function NavBar() {
       collapseOnSelect
     >
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/#">
           Damian Goodenough
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

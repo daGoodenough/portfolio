@@ -39,21 +39,24 @@ const FeaturedProject = () => (
             alt="Learn Bitcoin Wallet Website"
             className="featured-project"
           />
+          <div className="featured-link">
+            <a href="http://learnbtcwallet.com">View Project</a>
+          </div>
         </FadeIn>
       </Col>
     </Row>
     <FadeIn>
-      <Row className="align-items-center buttons">
+      <Row className="align-items-center buttons mt-3">
         <Col className="d-flex justify-content-around">
           <Button
             variant="dark"
             as="a"
-            href="http://learnbtcwallet.com"
+            href="https://www.loom.com/share/6fbf1e80237d426eb4bdc5de399f9ceb"
             target="blank"
           >
-            View Project
+            View Demo
           </Button>
-          <Button variant="dark" as={Link} to="/projects">
+          <Button variant="dark" as={Link} to="/projects#">
             More Projects
           </Button>
         </Col>

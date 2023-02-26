@@ -92,6 +92,10 @@ img.featured-project {
   max-width: 100%;
 }
 
+.featured-link {
+  text-align: end;
+}
+
 .btn.btn-dark {
   box-shadow: var(--main-font) 1px 1px 4px;
 }
@@ -111,11 +115,13 @@ img.education {
 div.education {
   font-size: 1.1remrem;
   text-align: center;
+  font-weight: 600;
 }
 
-div.education-description {
+p.education-description {
   font-size: 1.1rem;
   text-align: justify;
+  font-weight: 400;
 }
 
 .education.row {
@@ -140,6 +146,7 @@ div.education-description {
 @media screen and (max-width: 768px), screen and (min-width: 576px) {
   div.education {
     text-align: center;
+    margin-bottom: 10px;
   }
 }
 
