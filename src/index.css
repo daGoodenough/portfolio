@@ -143,6 +143,12 @@ p.education-description {
 .fa-linkedin {
   color: rgb(37, 104, 178);
 }
+
+.fa-arrow-up-right-from-square {
+  /* color: var(--main-font); */
+  font-size: 0.6rem;
+  margin-left: 5px;
+}
 @media screen and (max-width: 768px), screen and (min-width: 576px) {
   div.education {
     text-align: center;

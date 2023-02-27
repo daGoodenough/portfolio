@@ -40,7 +40,9 @@ const FeaturedProject = () => (
             className="featured-project"
           />
           <div className="featured-link">
-            <a href="http://learnbtcwallet.com">View Project</a>
+            <a href="http://learnbtcwallet.com">
+              Go To App <i className="fa-solid fa-arrow-up-right-from-square" />
+            </a>
           </div>
         </FadeIn>
       </Col>
