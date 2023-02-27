@@ -2,6 +2,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 
 import projectsObj from '../data/projects';
 import FadeIn from './FadeIn';
+import Connect from './Connect';
 
 const ProjectsPage = () => (
   <Container>
@@ -43,6 +44,15 @@ const ProjectsPage = () => (
         </Row>
       </FadeIn>
     ))}
+    <Row
+      className="section-container"
+      id="contact"
+      style={{ minHeight: 'fit-content' }}
+    >
+      <Col xs={12}>
+        <Connect />
+      </Col>
+    </Row>
   </Container>
 );
 

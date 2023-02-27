@@ -68,6 +68,11 @@ nav {
   /* margin-bottom: 45px; */
 }
 
+.connect-section {
+  padding-top: 30px;
+  border-top: 1px solid var(--main-font);
+}
+
 .home-button {
   display: flex;
   justify-content: center;

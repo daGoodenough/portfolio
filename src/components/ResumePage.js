@@ -1,11 +1,25 @@
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import React from 'react';
 
 import resume from '../images/resume_screenshot.png';
+import Connect from './Connect';
 
 const ResumePage = () => (
-  <Container className="d-flex justify-content-center">
-    <img src={resume} alt="resume" className="resume" />
+  <Container className="d-flex justify-content-center flex-column align-items-center">
+    <Row>
+      <Col xs={12}>
+        <img src={resume} alt="resume" className="resume" />
+      </Col>
+    </Row>
+    <Row
+      className="section-container"
+      id="contact"
+      style={{ minHeight: 'fit-content' }}
+    >
+      <Col xs={12}>
+        <Connect />
+      </Col>
+    </Row>
   </Container>
 );
 

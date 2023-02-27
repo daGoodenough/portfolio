@@ -6,7 +6,7 @@ import FadeIn from './FadeIn';
 const Connect = () => (
   <>
     <FadeIn>
-      <Row className="mt-5 text-center section-header">
+      <Row className="mt-5 text-center section-header connect-section">
         <Col xs={12}>
           <h2>Connect With Me</h2>
         </Col>
