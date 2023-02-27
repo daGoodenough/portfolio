@@ -16,7 +16,11 @@ const Home = () => (
     <Row className="section-container" id="education">
       <Education />
     </Row>
-    <Row className="section-container" id="contact">
+    <Row
+      className="section-container"
+      id="contact"
+      style={{ minHeight: 'fit-content' }}
+    >
       <Connect />
     </Row>
   </Container>
