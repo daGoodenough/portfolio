@@ -40,6 +40,10 @@ a.navbar-brand {
   font-size: 1.8rem;
 }
 
+a.nav-link {
+  text-align: end;
+}
+
 nav {
   border-bottom: 1.5px solid var(--foreground);
 }
@@ -147,6 +151,11 @@ p.education-description {
 .fa-arrow-up-right-from-square {
   /* color: var(--main-font); */
   font-size: 0.6rem;
+  margin-left: 5px;
+}
+
+.fa-house {
+  font-size: 0.8rem;
   margin-left: 5px;
 }
 @media screen and (max-width: 768px), screen and (min-width: 576px) {
