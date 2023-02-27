@@ -7,7 +7,15 @@ const Connect = () => (
   <>
     <FadeIn>
       <Row className="mt-5 text-center section-header">
-        <h2>Connect With Me</h2>
+        <Col xs={12}>
+          <h2>Connect With Me</h2>
+        </Col>
+        <Col xs={12}>
+          <a href="mailto:dgoodenough@proton.me">
+            dgoodenough@proton.me
+            {/* <i className="fa-regular fa-copy" /> */}
+          </a>
+        </Col>
       </Row>
     </FadeIn>
     <FadeIn>

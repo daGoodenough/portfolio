@@ -40,7 +40,7 @@ const AboutMe = () => (
             <em> JavaScript</em>, skilled at building web applications using
             MERN (<em>Mongo</em>, <em>Express</em>, <em>React</em>, and{' '}
             <em>Node</em>) and has a deep understanding of <em>Bitcoin</em> and
-            it's technology. His goals and skills are highly motivated his
+            it's technology. His goals and skills are highly motivated by his
             desire to be great at what he does and build a better future.
           </p>
         </div>
