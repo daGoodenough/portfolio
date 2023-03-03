@@ -50,7 +50,7 @@ const AboutMe = () => (
       <Row className="align-items-center buttons mt-3">
         <Col className="home-button">
           <Button variant="dark" as={Link} to="/resume">
-            Resume
+            Resumé
           </Button>
         </Col>
         {/* <Col className="home-button">
