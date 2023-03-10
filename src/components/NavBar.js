@@ -36,7 +36,7 @@ function NavBar() {
                 <i className="fa-solid fa-house" />
               </Nav.Link>
             )}
-            <Nav.Link as={Link} to="/resume">
+            <Nav.Link onClick={() => window.open('./resume.pdf')}>
               Resume
             </Nav.Link>
             <Nav.Link as={Link} to="/projects">
