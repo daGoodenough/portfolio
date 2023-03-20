@@ -28,27 +28,11 @@ const projects = {
   Frontend Hackathon built primarily using React and Redux, the News API, 
   and a web scraping API. Myself and 2 other team members completed 
   this project in just a week  with over 200 commits. I learned how 
-  to work effectivley as part of a team and meet out goals with a 
+  to work effectivley as part of a team and meet our goals with a 
   limited timeline.`,
     github: 'https://github.com/daGoodenough/news-sifter',
   },
   3: {
-    imageSrc: redditClone,
-    imageAlt: 'Reddit Clone',
-    title: 'Reddit Clone 11/02/2022',
-    description: `
- Project Description...`,
-    github: 'https://github.com/daGoodenough/project-reddit',
-  },
-  4: {
-    imageSrc: ticTacToe,
-    imageAlt: 'Tic Tac Toe',
-    title: 'Tic Tac Toe 09/17/2022',
-    description: `
-  Project Description...`,
-    github: 'https://github.com/daGoodenough/tictactoe',
-  },
-  5: {
     imageSrc: awesomeWeather,
     imageAlt: 'Weather App',
     title: 'Weather App 11/21/2022',
@@ -56,21 +40,37 @@ const projects = {
   Project Description...`,
     github: 'https://github.com/daGoodenough/redux-weather',
   },
-  6: {
-    imageSrc: btcSite,
-    imageAlt: 'Bitcoin Info',
-    title: 'Bitcoin Info 07/2023',
+  4: {
+    imageSrc: redditClone,
+    imageAlt: 'Reddit Clone',
+    title: 'Reddit Clone 11/02/2022',
+    description: `
+ Project Description...`,
+    github: 'https://github.com/daGoodenough/project-reddit',
+  },
+  5: {
+    imageSrc: ticTacToe,
+    imageAlt: 'Tic Tac Toe',
+    title: 'Tic Tac Toe 09/17/2022',
     description: `
   Project Description...`,
-    github: '#',
+    github: 'https://github.com/daGoodenough/tictactoe',
   },
-  7: {
+  6: {
     imageSrc: daGoodenoughTrial,
     imageAlt: 'Blog Website screenshot',
-    title: 'Blog Site 08/2023',
+    title: 'Blog Site 08/2022',
     description: `
   Project Description...`,
-    github: '#',
+    github: '',
+  },
+  7: {
+    imageSrc: btcSite,
+    imageAlt: 'Bitcoin Info',
+    title: 'Bitcoin Info 07/2022',
+    description: `
+  Project Description...`,
+    github: '',
   },
 };
 
