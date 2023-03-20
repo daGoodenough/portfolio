@@ -21,7 +21,7 @@ const FeaturedProject = () => (
             Designed to help users understand concepts behind wallet software.
             Uses Docker to run a <em>Bitcoin Core</em> node in regtest mode.
             Users can create keys, address, and transactions all in the safe
-            learning environment of regtest mode. <br />
+            learning environment of regtest mode. <br /> <br />
             <strong>Key Technologies: </strong>BitcoinJS, React, NodeJS,
             MongoDB, and Docker
           </p>
@@ -40,7 +40,11 @@ const FeaturedProject = () => (
             className="featured-project"
           />
           <div className="featured-link">
-            <a href="http://learnbtcwallet.com">
+            <a
+              href="http://learnbtcwallet.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Go To App <i className="fa-solid fa-arrow-up-right-from-square" />
             </a>
           </div>
@@ -58,7 +62,7 @@ const FeaturedProject = () => (
           >
             View Demo
           </Button>
-          <Button variant="dark" as={Link} to="/projects#">
+          <Button variant="dark" as="a" href="/projects">
             More Projects
           </Button>
         </Col>
