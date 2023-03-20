@@ -1,32 +1,20 @@
+import { Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { Col, Row, Button } from 'react-bootstrap';
 
 import FadeIn from './FadeIn';
-import learnBtcWallet from '../images/learn-btc-wallet-addr.png';
+import newsEdu from '../images/projects/news_edu.png';
 
-const FeaturedProject = () => (
+const SecondProject = () => (
   <>
-    <Row className="mb-4">
+    <Row className="mt-5">
       <Col className="d-flex align-items-center justify-content-center flex-column text-center">
         <FadeIn>
-          <h2>Learn Bitcoin Wallet</h2>
-          <h5>The wallet that helps you understand</h5>
+          <h2>News Edu</h2>
+          <h5>Learn new languages by reading the news</h5>
         </FadeIn>
       </Col>
     </Row>
     <Row>
-      <Col className="d-flex align-items-center" md={4}>
-        <FadeIn>
-          <p className="featured-project">
-            Designed to help users understand concepts behind wallet software.
-            Uses Docker to run a <em>Bitcoin Core</em> node in regtest mode.
-            Users can create keys, address, and transactions all in the safe
-            learning environment of regtest mode. <br /> <br />
-            <strong>Key Technologies: </strong>BitcoinJS, React, NodeJS,
-            MongoDB, and Docker
-          </p>
-        </FadeIn>
-      </Col>
       <Col
         xl={6}
         md={8}
@@ -35,19 +23,32 @@ const FeaturedProject = () => (
       >
         <FadeIn>
           <img
-            src={learnBtcWallet}
-            alt="Learn Bitcoin Wallet Website"
+            src={newsEdu}
+            alt="News edu Website"
             className="featured-project"
           />
           <div className="featured-link">
             <a
-              href="http://learnbtcwallet.com"
+              href="https://news-edu.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
               Go To App <i className="fa-solid fa-arrow-up-right-from-square" />
             </a>
           </div>
+        </FadeIn>
+      </Col>
+      <Col className="d-flex align-items-center justify-content-end" md={4}>
+        <FadeIn>
+          <p className="second-project">
+            Frontend Hackathon built primarily using React and Redux, the News
+            API, and a web scraping API. Myself and 2 other team members
+            completed this project in just one week with over 200 commits. I
+            learned how to work effectivley as part of a team and meet our goals
+            with a limited timeline. <br /> <br />
+            <strong>Key Technologies: </strong>ReactJS, React Redux, and React
+            Bootstrap
+          </p>
         </FadeIn>
       </Col>
     </Row>
@@ -57,7 +58,7 @@ const FeaturedProject = () => (
           <Button
             variant="dark"
             as="a"
-            href="https://www.loom.com/share/6fbf1e80237d426eb4bdc5de399f9ceb"
+            href="https://www.loom.com/share/43a0b31879dc437e932dda1c74bb1f66"
             target="blank"
           >
             View Demo
@@ -71,4 +72,4 @@ const FeaturedProject = () => (
   </>
 );
 
-export default FeaturedProject;
+export default SecondProject;
