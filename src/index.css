@@ -91,14 +91,23 @@ nav {
 }
 
 .short-bio,
-p.featured-project {
+p.featured-project,
+p.second-project {
   font-size: 1.3rem;
   text-align: justify;
   height: fit-content;
 }
 
+p.second-project {
+  margin-left: 5px;
+}
+
 img.featured-project {
   max-width: 100%;
+}
+
+img.programming-bitcoin {
+  max-width: 80%;
 }
 
 .featured-link {
@@ -163,6 +172,10 @@ p.education-description {
   font-size: 0.8rem;
   margin-left: 5px;
 }
+
+span.book-title {
+  text-decoration: underline;
+}
 @media screen and (max-width: 768px), screen and (min-width: 576px) {
   div.education {
     text-align: center;
@@ -223,7 +236,8 @@ img.projects-page {
   .short-bio {
     font-size: 1.3rem;
   }
-  div.featured-project {
+  div.featured-project,
+  div.second-project {
     font-size: 1.3rem;
   }
   .btn {
