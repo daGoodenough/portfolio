@@ -76,7 +76,25 @@ const LiPostsPage = () => (
             ch. 9 - Blocks
           </a>
         </li>
-        <li>chapters 10 - 13 coming soon...</li>
+        <li>
+          <a
+            href="https://www.linkedin.com/posts/damian-goodenough_programmingbitcoin-ch10-networking-activity-7043979881210118145-MNkQ"
+            target="_blank"
+            rel="noreferrer"
+          >
+            ch. 10 - Networking
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/posts/damian-goodenough_programmingbitcoin-ch11-spv-activity-7044461959366283264-zzps"
+            target="_blank"
+            rel="noreferrer"
+          >
+            ch. 11 & ch. 12 - Light CLients
+          </a>
+        </li>
+        <li>chapter 13 coming soon...</li>
       </ul>
     </Row>
   </Container>
