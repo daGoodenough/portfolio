@@ -29,9 +29,15 @@ const ProjectsPage = () => (
               />
             </a>
             <Row className="text-center m-3">
-              <a href={projectsObj[project].github}>
-                <i className="fa-brands fa-github projects-page" />
-              </a>
+              {projectsObj[project].github && (
+                <a
+                  href={projectsObj[project].github}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-brands fa-github projects-page" />
+                </a>
+              )}
             </Row>
           </Col>
           <Col
