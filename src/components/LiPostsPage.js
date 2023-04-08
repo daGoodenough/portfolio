@@ -94,7 +94,24 @@ const LiPostsPage = () => (
             ch. 11 & ch. 12 - Light CLients
           </a>
         </li>
-        <li>chapter 13 coming soon...</li>
+        <li>
+          <a
+            href="https://www.linkedin.com/posts/damian-goodenough_programmingbitcoin-ch13-segwit-activity-7049087657661906945-F29Z"
+            target="_blank"
+            rel="noreferrer"
+          >
+            ch. 13 - SegWit
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/posts/damian-goodenough_programming-bitcoin-learn-how-to-program-activity-7049390162186817536-yBtk"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Summary
+          </a>
+        </li>
       </ul>
     </Row>
   </Container>
