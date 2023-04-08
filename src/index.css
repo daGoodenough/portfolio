@@ -176,6 +176,10 @@ p.education-description {
 span.book-title {
   text-decoration: underline;
 }
+
+.arrow-section {
+  padding-bottom: 50px;
+}
 @media screen and (max-width: 768px), screen and (min-width: 576px) {
   div.education {
     text-align: center;
@@ -229,6 +233,12 @@ img.projects-page {
   .arrow,
   .bounce {
     display: none;
+  }
+
+  .arrow-section {
+    padding: 0;
+    padding-top: 10px;
+    font-size: 1rem;
   }
 }
 

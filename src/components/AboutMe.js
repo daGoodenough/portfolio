@@ -57,14 +57,16 @@ const AboutMe = () => {
               Resumé
             </Button>
           </Col>
-          <Col className="arrow bounce">
-            <i className="fa fa-arrow-down fa-2x" />
+          <Col className="arrow-section">
+            <Row className="arrow bounce">
+              <i className="fa fa-arrow-down fa-2x" />
+            </Row>
+            <Row>
+              <p className="text-center arrow-message">
+                Scroll down for <strong>proof-of-work</strong>
+              </p>
+            </Row>
           </Col>
-          {/* <Col className="home-button">
-          <Button variant="dark" as={Link} to="/about">
-            About Me
-          </Button>
-        </Col> */}
           <Col className="home-button">
             <Button variant="dark" as="a" href="#contact">
               Contact
