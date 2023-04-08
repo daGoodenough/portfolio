@@ -28,8 +28,9 @@ const ProgrammingBitcoin = () => (
             <strong>transaction creation</strong> and{' '}
             <strong>validation</strong> to the{' '}
             <strong>networking protocol</strong>. <br /> <br />
-            <Link to="/li-posts">Click here</Link> to see all my posts pertaing
-            to <span className="book-title">Programming Bitcoin</span>
+            <Link to="/li-posts">Click here</Link> to see all my posts
+            pertaining to{' '}
+            <span className="book-title">Programming Bitcoin</span>
           </p>
         </FadeIn>
       </Col>
