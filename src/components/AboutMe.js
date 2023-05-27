@@ -15,7 +15,7 @@ const AboutMe = () => {
           <Col xs={12}>
             <h1>Damian</h1>
           </Col>
-          <h4>| Builder | Adventurer | Bitcoiner |</h4>
+          <h3>| Builder | Adventurer | Bitcoiner |</h3>
         </Row>
       </FadeIn>
       <Col
@@ -35,17 +35,28 @@ const AboutMe = () => {
         <FadeIn>
           <div>
             <p className="short-bio">
-              &emsp;Damian is a driven learner with a varied background that
-              provides a unique perspective to his work. He has developed
-              discipline through doing what no one else will.
+              &emsp;Damian has gone deep down bitoin's proverbial rabbit hole
+              and has yet to look back. He has developed discipline through
+              doing what no one else will such as packing moose through the
+              Alaskan bush.
             </p>
             <p>
-              &emsp;Damian is experienced with
-              <em> JavaScript</em>, skilled at building web applications using
-              MERN (<em>Mongo</em>, <em>Express</em>, <em>React</em>, and{' '}
-              <em>Node</em>) and has a deep understanding of <em>Bitcoin</em>{' '}
-              and it's technology. His goals and skills are highly motivated by
-              his desire to be great at what he does and build a better future.
+              &emsp; From an urge to contribute to bitcoin, Damian has been
+              learning what it means to be a "bitcoin developer". He went
+              through a bootcamp to learn the fundamentals of writing code and
+              building full stack web apps with a personal focus on the backend
+              of the stack.
+            </p>
+            <p>
+              &emsp;Since then, he has continued to build his skills as a
+              bitcoin developer by winning hackathons, always writing code, and
+              consuming every technical resource he can find such as Jimmy
+              Song's book,{' '}
+              <span style={{ textDecoration: 'underline' }}>
+                Programming Bitcoin
+              </span>
+              . His goals and skills are highly motivated by his desire to be
+              great at what he does and build a better future.
             </p>
           </div>
         </FadeIn>
