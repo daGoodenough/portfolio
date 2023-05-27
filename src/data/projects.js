@@ -24,7 +24,7 @@ const projects = [
     imageSrc: psitadel,
     imageAlt: 'Psitadel',
     title: 'Psitadel 04/01/2023',
-    description: `A DAO-like community of sovereign individuals from all backgrounds operating on a bitcoin standard and exchanging value.<br /><br />
+    description: `A DAO-like community of sovereign individuals from all backgrounds operating on a bitcoin standard and exchanging value. I am building the website with plans to build a nostr bounty board.<br /><br />
     <strong>Key Technologies: </strong>React, NodeJS, GitHub Open Source Workflow`,
     link: 'https://psitadel.com',
     github: 'https://github.com/daGoodenough/psitadel',
