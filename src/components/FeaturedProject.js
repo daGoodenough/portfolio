@@ -39,7 +39,7 @@ const FeaturedProject = () => (
             alt="Learn Bitcoin Wallet Website"
             className="featured-project"
           />
-          <div className="featured-link">
+          {/* <div className="featured-link">
             <a
               href="http://learnbtcwallet.com"
               target="_blank"
@@ -47,7 +47,7 @@ const FeaturedProject = () => (
             >
               Go To App <i className="fa-solid fa-arrow-up-right-from-square" />
             </a>
-          </div>
+          </div> */}
         </FadeIn>
       </Col>
     </Row>
