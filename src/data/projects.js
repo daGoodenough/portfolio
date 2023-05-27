@@ -1,3 +1,4 @@
+import roygbiv from '../images/projects/roygbiv.png';
 import psitadel from '../images/projects/psitadel.png';
 import portfolio from '../images/projects/portfolio.png';
 import learnBtcWallet from '../images/learn-btc-wallet-addr.png';
@@ -10,12 +11,22 @@ import daGoodenoughTrial from '../images/projects/dagoodenough_0.1.png';
 
 const projects = [
   {
+    imageSrc: roygbiv,
+    imageAlt: 'ROYGBIV frontend',
+    title: 'BOLT 12 Lightning Prism 05/15/2023',
+    description: `The winning hackathon project at btc++ 2023 in Austin, 
+    TX. We created a CLN plugin and a user friendly UI that utilizes BOLT 12 to construct a "Prism" which can split lightning payments from the <strong>server side</strong>.
+    </br></br><strong>Key Technologies: </strong>Python, CLN, bash scripting, Open Source Workflow`,
+    link: 'https://roygbiv.money',
+    github: 'https://github.com/farscapian/clams-app-docker',
+  },
+  {
     imageSrc: psitadel,
     imageAlt: 'Psitadel',
     title: 'Psitadel 04/01/2023',
     description: `A DAO-like community of sovereign individuals from all backgrounds operating on a bitcoin standard and exchanging value.<br /><br />
     <strong>Key Technologies: </strong>React, NodeJS, GitHub Open Source Workflow`,
-    link: 'https://linktr.ee/psilocybincitadel',
+    link: 'https://psitadel.com',
     github: 'https://github.com/daGoodenough/psitadel',
   },
   {
