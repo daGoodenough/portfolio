@@ -16,10 +16,10 @@ const Home = () => (
         <AboutMe />
       </Row>
       <Row className="section-container" id="projects">
-        <FeaturedProject />
+        <SecondProject />
       </Row>
       <Row className="section-container" id="projects">
-        <SecondProject />
+        <FeaturedProject />
       </Row>
       <Row className="section-container" id="projects">
         <ProgrammingBitcoin />
