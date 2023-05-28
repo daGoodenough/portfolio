@@ -20,7 +20,8 @@ const AboutMe = () => {
       </FadeIn>
       <Col
         className="d-flex align-items-center justify-content-center"
-        md={6}
+        lg={6}
+        md={12}
         xs={12}
       >
         <FadeIn>
@@ -31,7 +32,7 @@ const AboutMe = () => {
           />
         </FadeIn>
       </Col>
-      <Col className="d-flex align-items-center" md={6} xs={12}>
+      <Col className="d-flex align-items-center" lg={6} md={12} xs={12}>
         <FadeIn>
           <div>
             <p className="short-bio">

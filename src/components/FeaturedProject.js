@@ -15,21 +15,9 @@ const FeaturedProject = () => (
       </Col>
     </Row>
     <Row>
-      <Col className="d-flex align-items-center" md={4}>
-        <FadeIn>
-          <p className="featured-project">
-            Designed to help users understand concepts behind wallet software.
-            Uses Docker to run a <em>Bitcoin Core</em> node in regtest mode.
-            Users can create keys, address, and transactions all in the safe
-            learning environment of regtest mode. <br /> <br />
-            <strong>Key Technologies: </strong>BitcoinJS, React, NodeJS,
-            MongoDB, and Docker
-          </p>
-        </FadeIn>
-      </Col>
       <Col
-        xl={6}
-        md={8}
+        lg={6}
+        md={12}
         xs={12}
         className="justify-content-center d-flex flex-column"
       >
@@ -48,6 +36,18 @@ const FeaturedProject = () => (
               Go To App <i className="fa-solid fa-arrow-up-right-from-square" />
             </a>
           </div> */}
+        </FadeIn>
+      </Col>
+      <Col className="d-flex align-items-center" md={12} lg={6}>
+        <FadeIn>
+          <p className="featured-project">
+            Designed to help users understand concepts behind wallet software.
+            Uses Docker to run a <em>Bitcoin Core</em> node in regtest mode.
+            Users can create keys, address, and transactions all in the safe
+            learning environment of regtest mode. <br /> <br />
+            <strong>Key Technologies: </strong>BitcoinJS, React, NodeJS,
+            MongoDB, and Docker
+          </p>
         </FadeIn>
       </Col>
     </Row>

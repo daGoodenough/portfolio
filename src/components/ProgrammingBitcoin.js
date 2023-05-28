@@ -15,7 +15,21 @@ const ProgrammingBitcoin = () => (
       </Col>
     </Row>
     <Row className="justify-content-around">
-      <Col className="d-flex align-items-center" md={4}>
+      <Col
+        xl={6}
+        md={12}
+        xs={12}
+        className="justify-content-center d-flex flex-column"
+      >
+        <FadeIn>
+          <img
+            src={programmingBitcoin}
+            alt="Learn Bitcoin Wallet Website"
+            className="programming-bitcoin featured-project"
+          />
+        </FadeIn>
+      </Col>
+      <Col className="d-flex align-items-center" md={12}>
         <FadeIn>
           <p className="featured-project">
             I started reading one chapter of{' '}
@@ -32,20 +46,6 @@ const ProgrammingBitcoin = () => (
             pertaining to{' '}
             <span className="book-title">Programming Bitcoin</span>
           </p>
-        </FadeIn>
-      </Col>
-      <Col
-        xl={6}
-        md={8}
-        xs={12}
-        className="justify-content-center d-flex flex-column"
-      >
-        <FadeIn>
-          <img
-            src={programmingBitcoin}
-            alt="Learn Bitcoin Wallet Website"
-            className="programming-bitcoin featured-project"
-          />
         </FadeIn>
       </Col>
     </Row>

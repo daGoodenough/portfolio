@@ -37,7 +37,7 @@ function NavBar() {
               </Nav.Link>
             )}
             <Nav.Link onClick={() => window.open('./resume.pdf')}>
-              Resume
+              Resumé
             </Nav.Link>
             <Nav.Link as={Link} to="/projects">
               All Projects
