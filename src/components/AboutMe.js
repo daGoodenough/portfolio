@@ -36,10 +36,10 @@ const AboutMe = () => {
         <FadeIn>
           <div>
             <p className="short-bio">
-              &emsp;Damian has gone deep down bitoin's proverbial rabbit hole
-              and has yet to look back. He has developed discipline through
-              doing what no one else will such as packing moose through the
-              Alaskan bush.
+              &emsp;Damian has delved deep into the proverbial rabbit hole of
+              bitcoin and shows no signs of turning back. He has developed
+              discipline by doing what no one else will, such as packing moose
+              through the Alaskan bush.
             </p>
             <p>
               &emsp; From an urge to contribute to bitcoin, Damian has been

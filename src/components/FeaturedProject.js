@@ -43,7 +43,7 @@ const FeaturedProject = () => (
           <p className="featured-project">
             Designed to help users understand concepts behind wallet software.
             Uses Docker to run a <em>Bitcoin Core</em> node in regtest mode.
-            Users can create keys, address, and transactions all in the safe
+            Users can create keys, addresses, and transactions all in the safe
             learning environment of regtest mode. <br /> <br />
             <strong>Key Technologies: </strong>BitcoinJS, React, NodeJS,
             MongoDB, and Docker
