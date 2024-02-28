@@ -11,8 +11,8 @@ const Connect = () => (
           <h2>Connect With Me</h2>
         </Col>
         <Col xs={12}>
-          <a href="mailto:dgoodenough@proton.me">
-            dgoodenough@proton.me
+          <a href="mailto:gudnuf21@proton.me">
+            gudnuf21@proton.me
             {/* <i className="fa-regular fa-copy" /> */}
           </a>
         </Col>
@@ -20,7 +20,7 @@ const Connect = () => (
     </FadeIn>
     <FadeIn>
       <Row className="justify-content-between text-center">
-        <Col>
+        {/* <Col>
           <a
             href="https://twitter.com/da_goodenough"
             target="_blank"
@@ -28,17 +28,13 @@ const Connect = () => (
           >
             <i className="fa-brands fa-twitter" />
           </a>
-        </Col>
-        <Col>
-          <a
-            href="https://github.com/daGoodenough"
-            target="_blank"
-            rel="noreferrer"
-          >
+        </Col> */}
+        <Col className="mt-3">
+          <a href="https://github.com/gudnuf" target="_blank" rel="noreferrer">
             <i className="fa-brands fa-github" />
           </a>
         </Col>
-        <Col>
+        {/* <Col>
           <a
             href="https://linkedin.com/in/damian-goodenough"
             target="_blank"
@@ -46,7 +42,7 @@ const Connect = () => (
           >
             <i className="fa-brands fa-linkedin" />
           </a>
-        </Col>
+        </Col> */}
       </Row>
     </FadeIn>
   </>

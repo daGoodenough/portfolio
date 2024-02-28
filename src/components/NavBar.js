@@ -14,10 +14,10 @@ function NavBar() {
     >
       <Container>
         {location === '/' ? (
-          <Navbar.Brand href="#">Damian Goodenough</Navbar.Brand>
+          <Navbar.Brand href="#">Gudnuf</Navbar.Brand>
         ) : (
           <Navbar.Brand as={Link} to="/">
-            Damian Goodenough
+            Gudnuf
           </Navbar.Brand>
         )}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

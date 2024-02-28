@@ -92,7 +92,7 @@ const Education = () => (
           className="d-flex align-items-center justify-content-center"
           md={3}
         >
-          <div className="education">SLV High School</div>
+          <div className="education">High School</div>
         </Col>
         <Col className="d-flex align-items-center" md={6}>
           <p className="education-description">
